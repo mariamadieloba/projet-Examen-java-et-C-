@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/dao/DaoProfil.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/Gestioncommercial.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/InscriptionController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/vmenu.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/ConnexionController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/dao/DaoArticle.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/vcommande.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/CommandeController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/CategorieController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/varticle.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/metier/Service.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/dao/DaoMySql.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/vinscription.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/dao/DaoPersonne.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/dao/DaoDetails.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/dao/DaoCategorie.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/vcategorie.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/MenuController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/vconnexion.fxml</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/ArticleController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/ProfilController.java</file>
+            <file>file:/C:/Users/user/Documents/NetBeansProjects/gestioncommercial/src/gestioncommercial/vprofil.fxml</file>
+        </group>
+    </open-files>
+</project-private>

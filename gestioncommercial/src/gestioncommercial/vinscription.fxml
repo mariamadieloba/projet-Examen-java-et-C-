@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestioncommercial.InscriptionController">
+   <children>
+      <AnchorPane prefHeight="480.0" prefWidth="681.0" style="-fx-background-color: #2D3447;">
+         <children>
+            <TextField fx:id="txtLogin" layoutX="89.0" layoutY="132.0" prefHeight="25.0" prefWidth="202.0" promptText="Entrer le Login" />
+            <TextField fx:id="txtPrenom" layoutX="89.0" layoutY="267.0" prefHeight="25.0" prefWidth="202.0" promptText="Entrer le Prenom" />
+            <TextField fx:id="txtNom" layoutX="89.0" layoutY="222.0" prefHeight="25.0" prefWidth="202.0" promptText="Entrer le Nom" />
+            <TextField fx:id="txtPwd" layoutX="89.0" layoutY="176.0" prefHeight="25.0" prefWidth="202.0" promptText="Entrer le Mot de passe" />
+            <Text fill="#479bcc" layoutX="86.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enregistrement User">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="cmbProfil" layoutX="89.0" layoutY="314.0" onTouchMoved="#handleAffiche" prefHeight="25.0" prefWidth="202.0" promptText="Selectionner un profil" />
+            <Button layoutX="190.0" layoutY="368.0" mnemonicParsing="false" onAction="#handleCreerUser" style="-fx-background-color: #2196f3;" text="Enregistrer" />
+            <Label layoutX="427.0" layoutY="57.0" text="Liste des Users" textFill="#2196f3">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="60.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../OneDrive/Images/images/S0-bmw-devoile-la-m5-competition-avec-625-ch-552055.jpg" />
+               </image>
+            </ImageView>
+            <ScrollPane layoutX="307.0" layoutY="93.0" prefHeight="363.0" prefWidth="366.0">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="350.0" prefWidth="355.0">
+                     <children>
+                        <TableView fx:id="tblvUsers" layoutX="-2.0" layoutY="-1.0" prefHeight="351.0" prefWidth="357.0">
+                           <columns>
+                              <TableColumn fx:id="tblcId" prefWidth="75.0" text="Id" />
+                              <TableColumn fx:id="tblcNom" prefWidth="75.0" text="Nom" />
+                              <TableColumn fx:id="tblcPrenom" prefWidth="93.0" text="Prenom" />
+                              <TableColumn fx:id="tblcProfil" prefWidth="113.0" text="Profil" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <Label layoutX="14.0" layoutY="136.0" text="Login" textFill="#4085f5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="178.0" text="Password" textFill="#4085f5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="224.0" text="Nom" textFill="#4085f5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="269.0" text="Prenom" textFill="#4085f5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="316.0" text="Profil" textFill="#4085f5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
